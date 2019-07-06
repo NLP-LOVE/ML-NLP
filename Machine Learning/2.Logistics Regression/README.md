@@ -1,3 +1,17 @@
+## 目录
+- [1. 什么是逻辑回归](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#1-什么是逻辑回归)
+- [2. 什么是Sigmoid函数](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#2-什么是sigmoid函数)
+- [3. 损失函数是什么](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#3-损失函数是什么)
+- [4.可以进行多分类吗？](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#4可以进行多分类吗)
+- [5.逻辑回归有什么优点](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#5逻辑回归有什么优点)
+- [6. 逻辑回归有哪些应用](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#6-逻辑回归有哪些应用)
+- [7. 逻辑回归常用的优化方法有哪些](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#7-逻辑回归常用的优化方法有哪些)
+  - [7.1 一阶方法](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#71-一阶方法)
+  - [7.2 二阶方法：牛顿法、拟牛顿法：](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#72-二阶方法牛顿法拟牛顿法)
+- [8. 逻辑斯特回归为什么要对特征进行离散化。](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#8-逻辑斯特回归为什么要对特征进行离散化)
+- [9. 逻辑回归的目标函数中增大L1正则化会是什么结果。](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/2.Logistics%20Regression#9-逻辑回归的目标函数中增大l1正则化会是什么结果)
+- [10. 代码实现](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/2.Logistics%20Regression/demo/CreditScoring.ipynb)
+
 ## 1. 什么是逻辑回归
 
 逻辑回归是用来做分类算法的，大家都熟悉线性回归，一般形式是Y=aX+b，y的取值范围是[-∞, +∞]，有这么多取值，怎么进行分类呢？不用担心，伟大的数学家已经为我们找到了一个方法。
