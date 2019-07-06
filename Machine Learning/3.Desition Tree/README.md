@@ -1,3 +1,17 @@
+## 目录
+- [1. 什么是决策树](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#1-什么是决策树)
+  - [1.1 决策树的基本思想](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#11-决策树的基本思想)
+  - [1.2 “树”的成长过程](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#12-树的成长过程)
+  - [1.3 "树"怎么长](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#13-树怎么长)
+  - [1.3.1 ID3算法](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#131-id3算法)
+  - [1.3.2 C4.5](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#132-c45)
+  - [1.3.3 CART算法](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#133-cart算法)
+  - [1.3.4 三种不同的决策树](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#134-三种不同的决策树)
+- [2. 树形结构为什么不需要归一化?](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#2-树形结构为什么不需要归一化)
+- [3. 分类决策树和回归决策树的区别](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#3-分类决策树和回归决策树的区别)
+- [4. 决策树如何剪枝](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.Desition%20Tree#4-决策树如何剪枝)
+- [5. 代码实现](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.Desition%20Tree/DecisionTree.ipynb)
+
 ## 1. 什么是决策树
 
 ### 1.1 决策树的基本思想
