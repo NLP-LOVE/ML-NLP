@@ -8,7 +8,7 @@
 | -------- | ------------------------------------------------------------ | -------------------------------------- | --------- |
 | 机器学习 | [1. 线性回归(Liner Regression)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/Liner%20Regression/1.Liner%20Regression.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | [2. 逻辑回归(Logistics Regression)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/2.Logistics%20Regression/2.Logistics%20Regression.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
-| 机器学习 | 3. 决策树(Desision Tree)                                     |                                        |           |
+| 机器学习 | [3. 决策树(Desision Tree)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.Desition%20Tree/Desition%20Tree.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | 3.1 随机森林(Random Forest)                                  |                                        |           |
 | 机器学习 | 3.2 梯度提升决策树(GBDT)                                     |                                        |           |
 | 机器学习 | 3.3 XGBoost                                                  |                                        |           |
