@@ -1,3 +1,14 @@
+## 目录
+- [1.什么是随机森林](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.1%20Random%20Forest#1什么是随机森林)
+  - [1.1 Bagging思想](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.1%20Random%20Forest#11-bagging思想)
+  - [1.2 随机森林](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.1%20Random%20Forest#12-随机森林)
+- [2. 随机森林分类效果的影响因素](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.1%20Random%20Forest#2-随机森林分类效果的影响因素)
+- [3. 随机森林有什么优缺点](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.1%20Random%20Forest#3-随机森林有什么优缺点)
+- [4. 随机森林如何处理缺失值？](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.1%20Random%20Forest#4-随机森林如何处理缺失值)
+- [5. 什么是OOB？随机森林中OOB是如何计算的，它有什么优缺点？](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.1%20Random%20Forest#5-什么是oob随机森林中oob是如何计算的它有什么优缺点)
+- [6. 随机森林的过拟合问题](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.1%20Random%20Forest#6-随机森林的过拟合问题)
+- [7. 代码实现](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.1%20Random%20Forest/RandomForestRegression.ipynb)
+
 ## 1.什么是随机森林
 
 ### 1.1 Bagging思想
@@ -80,7 +91,7 @@ bagging方法中Bootstrap每次约有1/3的样本不会出现在Bootstrap所采�
 
 1. 你已经建了一个有10000棵树的随机森林模型。在得到0.00的训练误差后，你非常高兴。但是，验证错误是34.23。到底是怎么回事？你还没有训练好你的模型吗？
 
-   **答：**该模型过度拟合，因此，为了避免这些情况，我们要用交叉验证来调整树的数量。
+   答：该模型过度拟合，因此，为了避免这些情况，我们要用交叉验证来调整树的数量。
 
 ## 7. 代码实现
 
