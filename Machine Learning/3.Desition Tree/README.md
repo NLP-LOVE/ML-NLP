@@ -140,6 +140,22 @@ Pk表示的是：当前样本集合D中第k类样本所占的比例为Pk。
 
 Classification And Regression Tree(CART)是决策树的一种，CART算法既可以用于创建分类树（Classification Tree），也可以用于创建回归树（Regression Tree），两者在建树的过程稍有差异。
 
+**回归树**：
+
+CART回归树是假设树为二叉树，通过不断将特征进行分裂。比如当前树结点是基于第j个特征值进行分裂的，设该特征值小于s的样本划分为左子树，大于s的样本划分为右子树。 
+
+![](https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase6415343854853617715.png)
+
+而CART回归树实质上就是在该特征维度对样本空间进行划分，而这种空间划分的优化是一种NP难问题，因此，在决策树模型中是使用启发式方法解决。典型CART回归树产生的目标函数为：
+
+![](https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64153438551488112806.png)
+
+因此，当我们为了求解最优的切分特征j和最优的切分点s，就转化为求解这么一个目标函数：
+
+![](https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase6415343855213970444.png)
+
+所以我们只要遍历所有特征的的所有切分点，就能找到最优的切分特征和切分点。最终得到一棵回归树。
+
 参考文章：[经典算法详解--CART分类决策树、回归树和模型树](https://blog.csdn.net/jiede1/article/details/76034328)
 
 ## 4. 决策树如何剪枝
