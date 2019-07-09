@@ -1,3 +1,14 @@
+## 目录
+- [1. 解释一下GBDT算法的过程](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#1-解释一下gbdt算法的过程)
+  - [1.1 Boosting思想](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#11-boosting思想)
+  - [1.2 GBDT原来是这么回事](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#12-gbdt原来是这么回事)
+- [2. 梯度提升和梯度下降的区别和联系是什么？](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#2-梯度提升和梯度下降的区别和联系是什么)
+- [3. GBDT的优点和局限性有哪些？](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#3-gbdt的优点和局限性有哪些)
+  - [3.1 优点](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#31-优点)
+  - [3.2 局限性](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#32-局限性)
+- [4. RF(随机森林)与GBDT之间的区别与联系](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#4-rf随机森林与gbdt之间的区别与联系)
+- [5. 代码实现](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#5-代码实现)
+
 ## 1. 解释一下GBDT算法的过程
 
 GBDT(Gradient Boosting Decision Tree)，全名叫梯度提升决策树，使用的是**Boosting**的思想。
