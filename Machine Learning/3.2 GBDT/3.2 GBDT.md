@@ -7,7 +7,7 @@
   - [3.1 优点](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#31-优点)
   - [3.2 局限性](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#32-局限性)
 - [4. RF(随机森林)与GBDT之间的区别与联系](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#4-rf随机森林与gbdt之间的区别与联系)
-- [5. 代码实现](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.2%20GBDT#5-代码实现)
+- [5. 代码实现](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.2%20GBDT/GBDT_demo.ipynb)
 
 ## 1. 解释一下GBDT算法的过程
 
