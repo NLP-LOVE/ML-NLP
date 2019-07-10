@@ -1,8 +1,18 @@
+## 目录
+- [1. LightGBM是什么东东](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.4%20LightGBM#1-lightgbm是什么东东)
+  - [1.1 LightGBM在哪些地方进行了优化 (区别XGBoost)？](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.4%20LightGBM#11-lightgbm在哪些地方进行了优化----区别xgboost)
+  - [1.2 Histogram算法](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.4%20LightGBM#12-histogram算法)
+  - [1.3 带深度限制的Leaf-wise的叶子生长策略](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.4%20LightGBM#13-带深度限制的leaf-wise的叶子生长策略)
+  - [1.4 直方图差加速](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.4%20LightGBM#14-直方图差加速)
+  - [1.5 直接支持类别特征](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.4%20LightGBM#15-直接支持类别特征)
+- [2. LightGBM优点](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/3.4%20LightGBM#2-lightgbm优点)
+- [3. 代码实现](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.4%20LightGBM/3.4%20LightGBM.ipynb)
+
 ## 1. LightGBM是什么东东
 
 不久前微软DMTK(分布式机器学习工具包)团队在GitHub上开源了性能超越其他boosting工具的LightGBM，在三天之内GitHub上被star了1000次，fork了200次。知乎上有近千人关注“如何看待微软开源的LightGBM？”问题，被评价为“速度惊人”，“非常有启发”，“支持分布式”，“代码清晰易懂”，“占用内存小”等。
 
-LightGBM （Light Gradient Boosting Machine）(请点击https://github.com/Microsoft/LightGBM)是一个实现GBDT算法的框架，支持高效率的并行训练。
+LightGBM （Light Gradient Boosting Machine）(请点击[https://github.com/Microsoft/LightGBM](https://github.com/Microsoft/LightGBM))是一个实现GBDT算法的框架，支持高效率的并行训练。
 
 LightGBM在Higgs数据集上LightGBM比XGBoost快将近10倍，内存占用率大约为XGBoost的1/6，并且准确率也有提升。GBDT在每一次迭代的时候，都需要遍历整个训练数据多次。如果把整个训练数据装进内存则会限制训练数据的大小；如果不装进内存，反复地读写训练数据又会消耗非常大的时间。尤其面对工业级海量的数据，普通的GBDT算法是不能满足其需求的。
 
@@ -56,7 +66,7 @@ LightGBM另一个优化是Histogram（直方图）做差加速。一个容易观
 
 ## 2. LightGBM优点
 
-LightGBM （Light Gradient Boosting Machine）(请点击https://github.com/Microsoft/LightGBM)是一个实现GBDT算法的框架，支持高效率的并行训练，并且具有以下优点：
+LightGBM （Light Gradient Boosting Machine）(请点击[https://github.com/Microsoft/LightGBM](https://github.com/Microsoft/LightGBM))是一个实现GBDT算法的框架，支持高效率的并行训练，并且具有以下优点：
 
 - 更快的训练速度
 - 更低的内存消耗
