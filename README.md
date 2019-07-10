@@ -13,6 +13,8 @@
 
 ## 目录
 
+- **项目持续更新中......**
+
 | 模块     | 章节                                                         | 负责人(GitHub)                         | 联系QQ    |
 | -------- | ------------------------------------------------------------ | -------------------------------------- | --------- |
 | 机器学习 | [1. 线性回归(Liner Regression)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/1.Liner%20Regression.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
