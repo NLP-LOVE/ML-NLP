@@ -13,7 +13,7 @@
 | 机器学习 | [3.2 梯度提升决策树(GBDT)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.2%20GBDT/3.2%20GBDT.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | [3.3 XGBoost](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.3%20XGBoost/3.3%20XGBoost.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | [3.4 LightGBM](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.4%20LightGBM/3.4%20LightGBM.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
-| 机器学习 | 4. 支持向量机(SVM)                                           |                                        |           |
+| 机器学习 | [4. 支持向量机(SVM)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/4.%20SVM/4.%20SVM.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | 5. 贝叶斯网络(Bayesian network)                              |                                        |           |
 | 机器学习 | 5.1 朴素贝叶斯                                               |                                        |           |
 | 机器学习 | 6. 隐马尔科夫模型(HMM)                                       |                                        |           |
