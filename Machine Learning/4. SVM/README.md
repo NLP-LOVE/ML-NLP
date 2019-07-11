@@ -44,7 +44,7 @@ SVM实际上是在为天使找到木棒的最佳放置位置，使得两边的�
 
 而超平面(w，b)关于数据集T中所有样本点(xi，yi)的函数间隔最小值（其中，x是特征，y是结果标签，i表示第i个样本），便为超平面(w, b)关于训练数据集T的函数间隔：
 
-![](https://latex.codecogs.com/gif.latex?\gamma=min\gamma i(i=1,...n))
+![](https://latex.codecogs.com/gif.latex?\gamma=min\gamma_{}i(i=1,...n))
 
 但这样定义的函数间隔有问题，即如果成比例的改变w和b（如将它们改成2w和2b），则函数间隔的值f(x)却变成了原来的2倍（虽然此时超平面没有改变），所以只有函数间隔还远远不够。
 
@@ -78,7 +78,7 @@ OK，到此为止，算是了解到了SVM的第一层，对于那些只关心怎
 
 SVM 求解使通过建立二次规划原始问题，引入拉格朗日乘子法，然后转换成对偶的形式去求解，这是一种理论非常充实的解法。这里换一种角度来思考，在机器学习领域，一般的做法是经验风险最小化 （empirical risk minimization,ERM），即构建假设函数（Hypothesis）为输入输出间的映射，然后采用损失函数来衡量模型的优劣。求得使损失最小化的模型即为最优的假设函数，采用不同的损失函数也会得到不同的机器学习算法。SVM采用的就是Hinge Loss，用于“最大间隔(max-margin)”分类。
 
-![](https://latex.codecogs.com/gif.latex?L_i=\sum_{j\neq t_i}max(0,f(x_i,W)_j-(f(x_i,W)_{y_i}-\bigtriangleup)))
+![](https://latex.codecogs.com/gif.latex?L_i=\sum_{j\neq_{}t_i}max(0,f(x_i,W)_j-(f(x_i,W)_{y_i}-\bigtriangleup)))
 
 - 对于训练集中的第i个数据xi
 - 在W下会有一个得分结果向量f(xi,W)
