@@ -4,7 +4,7 @@
   - [1.2数据集下载](#12数据集下载)
   - [1.3libsvm库安装](#13libsvm库安装)
   - [1.4实现步骤](#14实现步骤)
-  - [1.5代码实现]()
+  - [1.5代码实现](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/4.%20SVM/news%20classification/svm_classification.ipynb)
 
 ## 1.新闻分类案例
 
@@ -19,6 +19,7 @@
 有三个文件，一个是训练数据，一个是测试数据，一个是分类。
 
 训练数据：https://pan.baidu.com/s/1ZkxGIvvGml3vig-9_s1pRw
+
 百度网盘加速下载地址：https://www.baiduwp.com/?m=index
 
 ### 1.3libsvm库安装
@@ -49,4 +50,10 @@ libsvm下载地址：[libsvm-3.23.zip](http://www.csie.ntu.edu.tw/~cjlin/cgi-bin
 4.调用libsvm训练器进行训练。
 
 ### 1.5代码实现
-GitHub：
+GitHub：[点击进入](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/4.%20SVM/news%20classification/svm_classification.ipynb)
+
+> 作者：[@mantchs](https://github.com/NLP-LOVE/ML-NLP)
+>
+> GitHub：[https://github.com/NLP-LOVE/ML-NLP](https://github.com/NLP-LOVE/ML-NLP)
+>
+> 欢迎大家加入讨论！共同完善此项目！群号：【541954936】<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=863f915b9178560bd32ca07cd090a7d9e6f5f90fcff5667489697b1621cecdb3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP面试学习群" title="NLP面试学习群"></a>
