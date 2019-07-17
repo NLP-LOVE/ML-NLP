@@ -15,12 +15,13 @@
 | 机器学习 | [3.4 LightGBM](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.4%20LightGBM/3.4%20LightGBM.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | [4. 支持向量机(SVM)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/4.%20SVM/4.%20SVM.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | 5. 概率图模型(Probabilistic Graphical Model)                 |                                        |           |
-| 机器学习 | [5.1 贝叶斯网络(Bayesian network)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/5.1%20Bayes%20Network/5.1%20Bayes%20Network.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
-| 机器学习 | 5.2 马尔科夫(Markov)                                         |                                        |           |
+| 机器学习 | [5.1 贝叶斯网络(Bayesian Network)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/5.1%20Bayes%20Network/5.1%20Bayes%20Network.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
+| 机器学习 | [5.2 马尔科夫(Markov)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/5.2%20Markov/5.2%20Markov.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | 5.3 主题模型(Topic Model)                                    |                                        |           |
 | 机器学习 | 6.最大期望算法(EM)                                           |                                        |           |
 | 机器学习 | 7.聚类                                                       |                                        |           |
 | 机器学习 | 8.ML特征工程和优化方法                                       |                                        |           |
+|          | sklearn                                                      |                                        |           |
 
 
 
