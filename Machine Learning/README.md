@@ -19,9 +19,9 @@
 | 机器学习 | [5.2 马尔科夫(Markov)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/5.2%20Markov/5.2%20Markov.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | 5.3 主题模型(Topic Model)                                    |                                        |           |
 | 机器学习 | [6.最大期望算法(EM)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/6.%20EM) | [@mantchs](https://github.com/mantchs) | 448966528 |
-| 机器学习 | 7.聚类                                                       |                                        |           |
+| 机器学习 | [7.聚类(Clustering)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/7.%20Clustering) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | 8.ML特征工程和优化方法                                       |                                        |           |
-|          | sklearn                                                      |                                        |           |
+| 机器学习 | 9.sklearn工具使用                                            |                                        |           |
 
 
 
