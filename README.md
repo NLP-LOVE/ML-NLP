@@ -30,22 +30,23 @@
 | 机器学习 | [5.2 马尔科夫(Markov)](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/5.2%20Markov/5.2%20Markov.md) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | 5.3 主题模型(Topic Model)                                    |                                        |           |
 | 机器学习 | [6.最大期望算法(EM)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/6.%20EM) | [@mantchs](https://github.com/mantchs) | 448966528 |
-| 机器学习 | 7.聚类                                                       |                                        |           |
+| 机器学习 | [7.聚类(Clustering)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/7.%20Clustering) | [@mantchs](https://github.com/mantchs) | 448966528 |
 | 机器学习 | 8.ML特征工程和优化方法                                       |                                        |           |
-| 深度学习 | 9.神经网络(Neural Network)                                   |                                        |           |
-| 深度学习 | 10. 卷积神经网络(CNN)                                        |                                        |           |
-| 深度学习 | 11. 循环神经网络(RNN)                                        |                                        |           |
-| 深度学习 | 11.1 门控循环单元(GRU)                                       |                                        |           |
-| 深度学习 | 11.2 长短期记忆(LSTM)                                        |                                        |           |
-| 深度学习 | 12. 深度学习的优化方法                                       |                                        |           |
-| NLP      | 13. 自然语言处理(NLP)                                        |                                        |           |
-| NLP      | 13.1 词嵌入(Word2Vec)                                        |                                        |           |
-| NLP      | 13.2 子词嵌入(fastText)                                      |                                        |           |
-| NLP      | 13.3 全局向量词嵌入(GloVe)                                   |                                        |           |
-| NLP      | 13.4 textCNN                                                 |                                        |           |
-| NLP      | 13.5 序列到序列模型(seq2seq)                                 |                                        |           |
-| NLP      | 13.6 注意力机制(Attention Mechanism)                         |                                        |           |
-| NLP      | 13.7 BERT模型                                                |                                        |           |
+| 机器学习 | 9.sklearn工具使用                                            |                                        |           |
+| 深度学习 | 10.神经网络(Neural Network)                                  |                                        |           |
+| 深度学习 | 11. 卷积神经网络(CNN)                                        |                                        |           |
+| 深度学习 | 12. 循环神经网络(RNN)                                        |                                        |           |
+| 深度学习 | 12.1 门控循环单元(GRU)                                       |                                        |           |
+| 深度学习 | 12.2 长短期记忆(LSTM)                                        |                                        |           |
+| 深度学习 | 13. 深度学习的优化方法                                       |                                        |           |
+| NLP      | 14. 自然语言处理(NLP)                                        |                                        |           |
+| NLP      | 14.1 词嵌入(Word2Vec)                                        |                                        |           |
+| NLP      | 14.2 子词嵌入(fastText)                                      |                                        |           |
+| NLP      | 14.3 全局向量词嵌入(GloVe)                                   |                                        |           |
+| NLP      | 14.4 textCNN                                                 |                                        |           |
+| NLP      | 14.5 序列到序列模型(seq2seq)                                 |                                        |           |
+| NLP      | 14.6 注意力机制(Attention Mechanism)                         |                                        |           |
+| NLP      | 14.7 BERT模型                                                |                                        |           |
 
 
 
