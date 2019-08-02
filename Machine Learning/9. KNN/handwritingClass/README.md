@@ -94,3 +94,5 @@ def handwritingClassTest():
 ```
 
 > 使用算法：本例没有完成此步骤，若你感兴趣可以构建完整的应用程序，从图像中提取数字，并完成数字识别，美国的邮件分拣系统就是一个实际运行的类似系统。
+
+> 本项目转载自：[apachecn/AiLearning](https://github.com/apachecn/AiLearning/blob/master/docs/ml/2.k-近邻算法.md)
