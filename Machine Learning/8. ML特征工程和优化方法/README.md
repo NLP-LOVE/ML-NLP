@@ -348,9 +348,9 @@ Kolmogorov-Smirnov检验是基于累计分布函数的，用于检验一个分�
 - 单样本K-S检验是用来检验一个数据的观测经验分布是否符合已知的理论分布。
 - 两样本K-S检验由于对两样本的经验分布函数的位置和形状参数的差异都敏感，所以成为比较两样本的最有用且最常用的非参数方法之一。
 
-检验统计量为：$D_r=max_x|F_n(x)-F(x)|$
+检验统计量为：![](https://latex.codecogs.com/gif.latex?D_r=max_x|F_n(x)-F(x)|)
 
-其中 $F_n(x)$ 为观察序列值，$F(x)$为理论序列值或另一观察序列值。
+其中  ![](https://latex.codecogs.com/gif.latex?F_n(x))为观察序列值，![](https://latex.codecogs.com/gif.latex?F(x))为理论序列值或另一观察序列值。
 
 ### 4.2 T检验
 
@@ -382,7 +382,7 @@ T检验和F检验的由来：为了确定从样本中的统计结果推论到总
 
 5. 当H0为真时，n次试验中样本落入第i个小区间Ai的频率fi/n与概率pi应该很接近。基于这种思想，皮尔逊引入检测统计量：
 
-   $$x^2=\sum_{i=1}^{k}\frac{(f_i-np_i)^2}{np_i}$$
+   ![](https://latex.codecogs.com/gif.latex?x^2=\sum_{i=1}^{k}\frac{(f_i-np_i)^2}{np_i})
 
    在H0假设成立的情况下服从自由度为k-1的卡方分布。
 
