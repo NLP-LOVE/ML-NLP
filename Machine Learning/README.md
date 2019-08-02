@@ -21,7 +21,7 @@
 | 机器学习 | [6.最大期望算法(EM)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/6.%20EM) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 机器学习 | [7.聚类(Clustering)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/7.%20Clustering) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 机器学习 | [8.ML特征工程和优化方法](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/8.%20ML特征工程和优化方法) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
-| 机器学习 | 9.sklearn工具使用                                            |                                         |           |
+| 机器学习 | [9.K近邻算法(KNN)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/9.%20KNN) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 
 
 
