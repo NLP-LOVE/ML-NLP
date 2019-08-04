@@ -17,7 +17,7 @@
   - [6.1 什么是softmax](#61-什么是softmax)
   - [6.2 softmax的计算](#62-softmax的计算)
   - [6.3 交叉熵损失函数](#63-交叉熵损失函数)
-- [7. 神经网络实现](#7-神经网络实现)
+- [7. 神经网络实现](https://github.com/NLP-LOVE/ML-NLP/blob/master/Deep%20Learning/10.%20Neural%20Network/TensorFlow_LR.ipynb)
 
 ## 1. 深度学习有哪些应用
 
