@@ -37,7 +37,7 @@ LSTM 中引⼊了3个⻔，即输⼊⻔（input gate）、遗忘⻔（forget gat
 
 接下来，⻓短期记忆需要计算候选记忆细胞 ![](https://latex.codecogs.com/gif.latex?\tilde{C}_t)。它的计算与上⾯介绍的3个⻔类似，但使⽤了值域在[−1, 1]的tanh函数作为激活函数，如下图所示：
 
-
+![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-17_16-24-39.png)
 
 具体来说，时间步t的候选记忆细胞计算如下：
 
