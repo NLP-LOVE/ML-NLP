@@ -38,16 +38,17 @@
 | 深度学习 | [12. 循环神经网络(RNN)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/12.%20RNN) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 深度学习 | [12.1 门控循环单元(GRU)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/12.1%20GRU) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 深度学习 | [12.2 长短期记忆(LSTM)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/12.2%20LSTM) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
-| 深度学习 | 13.迁移学习(transformer)和多任务学习                         |                                         |           |
-| 深度学习 | 14. 深度学习的优化方法                                       |                                         |           |
-| NLP      | 15. 自然语言处理(NLP)                                        |                                         |           |
-| NLP      | 15.1 词嵌入(Word2Vec)                                        |                                         |           |
-| NLP      | 15.2 子词嵌入(fastText)                                      |                                         |           |
-| NLP      | 15.3 全局向量词嵌入(GloVe)                                   |                                         |           |
-| NLP      | 15.4 textCNN                                                 |                                         |           |
-| NLP      | 15.5 序列到序列模型(seq2seq)                                 |                                         |           |
-| NLP      | 15.6 注意力机制(Attention Mechanism)                         |                                         |           |
-| NLP      | 15.7 BERT模型                                                |                                         |           |
+| 深度学习 | [13.迁移学习(Transformer)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/13.%20Transformer%20Learning) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
+| 深度学习 | 14.强化学习(Reinforcement) & 多任务                          | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
+| 深度学习 | 15. 深度学习的优化方法                                       |                                         |           |
+| NLP      | 16. 自然语言处理(NLP)                                        |                                         |           |
+| NLP      | 16.1 词嵌入(Word2Vec)                                        |                                         |           |
+| NLP      | 16.2 子词嵌入(fastText)                                      |                                         |           |
+| NLP      | 16.3 全局向量词嵌入(GloVe)                                   |                                         |           |
+| NLP      | 16.4 textCNN                                                 |                                         |           |
+| NLP      | 16.5 序列到序列模型(seq2seq)                                 |                                         |           |
+| NLP      | 16.6 注意力机制(Attention Mechanism)                         |                                         |           |
+| NLP      | 16.7 BERT模型                                                |                                         |           |
 
 
 
