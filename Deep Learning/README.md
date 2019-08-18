@@ -11,7 +11,7 @@
 | 深度学习 | [12. 循环神经网络(RNN)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/12.%20RNN) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 深度学习 | [12.1 门控循环单元(GRU)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/12.1%20GRU) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 深度学习 | [12.2 长短期记忆(LSTM)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/12.2%20LSTM) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
-| 深度学习 | [13.迁移学习(Transformer)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep Learning/13. Transformer Learning) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
+| 深度学习 | [13.迁移学习(Transformer)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/13.%20Transformer%20Learning) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 深度学习 | 14.强化学习(Reinforcement) & 多任务                          |                                         |           |
 | 深度学习 | 15. 深度学习的优化方法                                       |                                         |           |
 
