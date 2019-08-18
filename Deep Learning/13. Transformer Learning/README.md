@@ -154,7 +154,7 @@
 
 ## 13. 参考文献
 
-[[https://github.com/scutan90/DeepLearning-500-questions/tree/master/ch11_%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0](https://github.com/scutan90/DeepLearning-500-questions/tree/master/ch11_迁移学习)]([https://github.com/scutan90/DeepLearning-500-questions/tree/master/ch11_%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0](https://github.com/scutan90/DeepLearning-500-questions/tree/master/ch11_迁移学习))
+[https://github.com/scutan90/DeepLearning-500-questions/tree/master/ch11_%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0](https://github.com/scutan90/DeepLearning-500-questions/tree/master/ch11_迁移学习)
 
 ------
 
