@@ -11,7 +11,7 @@
 - [9. 什么是finetune？](#9-什么是finetune)
 - [10. 什么是深度网络自适应？](#10-什么是深度网络自适应)
 - [11. GAN在迁移学习中的应用](#11-gan在迁移学习中的应用)
-- [12. 代码实现](https://github.com/NLP-LOVE/ML-NLP/blob/master/Deep%20Learning/13.%20Transformer%20Learning/Transformer%20Learning.ipynb)
+- [12. 代码实现](https://github.com/NLP-LOVE/ML-NLP/blob/master/Deep%20Learning/13.%20Transfer%20Learning/Transfer%20Learning.ipynb)
 - [13. 参考文献](#13-参考文献)
 
 ## 1. 什么是迁移学习
