@@ -13,9 +13,8 @@
 | 深度学习 | [12.2 长短期记忆(LSTM)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/12.2%20LSTM) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 深度学习 | [13.迁移学习(Transformer)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/13.%20Transformer%20Learning) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 深度学习 | [14.强化学习(Reinforcement) & 多任务](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/14.%20Reinforcement%20Learning) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
-| 深度学习 | 15. 深度学习的优化方法                                       |                                         |           |
+| 深度学习 | [15. 深度学习的优化方法]([https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/15.%20DL%20Optimizer](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep Learning/15. DL Optimizer)) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 
 
 > 欢迎大家加入！共同完善此项目！<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=863f915b9178560bd32ca07cd090a7d9e6f5f90fcff5667489697b1621cecdb3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP面试学习群" title="NLP面试学习群"></a>
-
 
