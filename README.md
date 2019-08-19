@@ -40,7 +40,7 @@
 | 深度学习 | [12.2 长短期记忆(LSTM)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/12.2%20LSTM) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 深度学习 | [13.迁移学习(Transformer)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/13.%20Transformer%20Learning) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | 深度学习 | [14.强化学习(Reinforcement) & 多任务](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/14.%20Reinforcement%20Learning) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
-| 深度学习 | 15. 深度学习的优化方法                                       |                                         |           |
+| 深度学习 | [15. 深度学习的优化方法](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/15.%20DL%20Optimizer) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP      | 16. 自然语言处理(NLP)                                        |                                         |           |
 | NLP      | 16.1 词嵌入(Word2Vec)                                        |                                         |           |
 | NLP      | 16.2 子词嵌入(fastText)                                      |                                         |           |
