@@ -67,3 +67,10 @@ NLP/CV属于两个不同的研究领域，都是很好的领域，可以根据�
 - [《数学之美》--吴军](<https://www.lanzous.com/i3ousch>)
 - [BERT时代与后时代的NLP](<https://mp.weixin.qq.com/s/U_pYc5roODcs_VENDoTbiQ>)
 
+------
+
+> 作者：[@mantchs](https://github.com/NLP-LOVE/ML-NLP)
+>
+> GitHub：[https://github.com/NLP-LOVE/ML-NLP](https://github.com/NLP-LOVE/ML-NLP)
+>
+> 欢迎大家加入讨论！共同完善此项目！群号：【541954936】<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=863f915b9178560bd32ca07cd090a7d9e6f5f90fcff5667489697b1621cecdb3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP面试学习群" title="NLP面试学习群"></a>
