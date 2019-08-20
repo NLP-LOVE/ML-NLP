@@ -192,7 +192,7 @@ CBOW是通过中间词来预测窗口中上下文词出现的概率模型，把�
 
 Skip-gram是通过当前词来预测窗口中上下文词出现的概率模型，把当前词当做x，把窗口中其它词当做y，依然是通过一个隐层接一个Softmax激活函数来预测其它词的概率。如下图所示：
 
-![image](https://ws4.sinaimg.cn/large/00630Defly1g2u7f4tsl2j30eu0h20tq.jpg)
+![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-20_20-34-0.jpg)
 
 **优化方法**：
 
