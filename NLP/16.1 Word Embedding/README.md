@@ -80,7 +80,7 @@ TF-IDF（term frequency–inverse document frequency）是一种用于信息检�
 
 **字词的重要性随着它在文件中出现的次数成正比增加，但同时会随着它在语料库中出现的频率成反比下降。一个词语在一篇文章中出现次数越多, 同时在所有文档中出现次数越少, 越能够代表该文章。**
 
-![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-20_20-28-26.png)
+![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-21_10-7-23.png)
 
 分母之所以加1，是为了避免分母为0。
 
