@@ -46,7 +46,7 @@
 | NLP      | [16.2 子词嵌入(fastText)](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.2%20fastText) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP      | [16.3 全局向量词嵌入(GloVe)](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.3%20GloVe) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP      | [16.4 textRNN & textCNN](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.4%20textRNN%20%26%20textCNN) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
-| NLP      | 16.5 序列到序列模型(seq2seq)                                 |                                         |           |
+| NLP      | [16.5 序列到序列模型(seq2seq)](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.5%20seq2seq) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP      | 16.6 注意力机制(Attention Mechanism)                         |                                         |           |
 | NLP      | 16.7 BERT模型                                                |                                         |           |
 
