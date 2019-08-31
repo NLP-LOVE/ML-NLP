@@ -1,0 +1,5 @@
+_NUM nz
+_PAD nz
+_GO nz
+_EOS nz
+_UNK nz
