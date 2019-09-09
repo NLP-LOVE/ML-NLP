@@ -49,6 +49,9 @@
 | NLP      | [16.5 序列到序列模型(seq2seq)](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.5%20seq2seq) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP      | [16.6 注意力机制(Attention Mechanism)](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.6%20Attention) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP      | 16.7 BERT模型                                                |                                         |           |
+| 项目     | [17. 推荐系统(Recommendation System)](https://github.com/NLP-LOVE/ML-NLP/tree/master/Project/17.%20Recommendation%20System) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
+| 项目     | 18. 智能客服                                                 |                                         |           |
+|          | 19. 评论分析                                                 |                                         |           |
 
 
 
