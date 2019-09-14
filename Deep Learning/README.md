@@ -16,5 +16,5 @@
 | 深度学习 | [15. 深度学习的优化方法](https://github.com/NLP-LOVE/ML-NLP/tree/master/Deep%20Learning/15.%20DL%20Optimizer) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 
 
-> 欢迎大家加入！共同完善此项目！<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=863f915b9178560bd32ca07cd090a7d9e6f5f90fcff5667489697b1621cecdb3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP面试学习群" title="NLP面试学习群"></a>
+> 欢迎大家加入！共同完善此项目！<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=863f915b9178560bd32ca07cd090a7d9e6f5f90fcff5667489697b1621cecdb3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP面试学习群" title="NLP面试学习群"></a>  
 
