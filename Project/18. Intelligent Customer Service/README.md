@@ -174,6 +174,7 @@
 ## 5. 参考文献
 
 [15年研发经验博士手把手教学：从零开始搭建智能客服 ](http://www.sohu.com/a/228122295_355140)
+[五八同城智能客服系统“帮帮”技术揭秘. 詹坤林, DataFunTalk. 2018.](https://mp.weixin.qq.com/s/5ewD2xD8J08W89-Rwixw4Q)
 
 
 
