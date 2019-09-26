@@ -56,7 +56,7 @@ transformer模型中缺少一种解释输入序列中单词顺序的方法，它
 
 最后把这个Positional Encoding与embedding的值相加，作为输入送到下一层。
 
-![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-26_9-25-43.png)
+![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-26_14-45-31.png)
 
 
 
@@ -82,7 +82,7 @@ The animal didn't cross the street because it was too tired
 
 4. 下一步就是把Value和softmax得到的值进行相乘，并相加，得到的结果即是self-attetion在当前节点的值。
 
-   ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-26_9-4-8.png)
+   ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-26_14-47-17.png)
 
 在实际的应用场景，为了提高计算速度，我们采用的是矩阵的方式，直接计算出Query, Key, Value的矩阵，然后把embedding的值与三个矩阵直接相乘，把得到的新矩阵 Q 与 K 相乘，乘以一个常数，做softmax操作，最后乘上 V 矩阵。
 
@@ -98,7 +98,7 @@ The animal didn't cross the street because it was too tired
 
 这篇论文更牛逼的地方是给self-attention加入了另外一个机制，被称为“multi-headed” attention，该机制理解起来很简单，**就是说不仅仅只初始化一组Q、K、V的矩阵，而是初始化多组，tranformer是使用了8组**，所以最后得到的结果是8个矩阵。
 
-![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-26_9-13-0.png)
+![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-26_14-49-14.png)
 
 ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-26_9-13-50.png)
 
