@@ -181,7 +181,7 @@ BN的主要思想就是：在每一层的每一批数据上进行归一化。我
 
 接下来的步骤重复了这个过程，直到到达一个特殊的终止符号，它表示transformer的解码器已经完成了它的输出。每个步骤的输出在下一个时间步被提供给底端解码器，并且就像编码器之前做的那样，这些解码器会输出它们的解码结果 。
 
-![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-26_14-24-43.gif)
+[解码器动态图请点击](https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64156846899939997439.gif)
 
 
 
