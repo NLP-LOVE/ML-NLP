@@ -15,7 +15,7 @@
 | NLP  | [16.6 注意力机制(Attention Mechanism)](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.6%20Attention) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP  | [16.7 Transformer模型](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.7%20Transformer) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP  | [16.8 BERT模型](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.8%20BERT) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
-| NLP  | 16.9 XLNet模型                                               |                                         |           |
+| NLP  | [16.9 XLNet模型](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.9%20XLNet) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 
 
 > 欢迎大家加入！共同完善此项目！<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=863f915b9178560bd32ca07cd090a7d9e6f5f90fcff5667489697b1621cecdb3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP面试学习群" title="NLP面试学习群"></a>
