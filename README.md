@@ -5,7 +5,8 @@
 - 此项目以各个模块为切入点，让大家有一个清晰的知识体系。
 - 此项目亦可拿来常读、常记以及面试时复习之用。
 - 每一章里的问题都是面试时有可能问到的知识点，如有遗漏可联系我进行补充，结尾处都有算法的**实战代码案例**。
-- **有意向一起完成此项目或者有问题、有补充的可以加入NLP学习QQ群【541954936】<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=863f915b9178560bd32ca07cd090a7d9e6f5f90fcff5667489697b1621cecdb3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP面试学习群" title="NLP面试学习群"></a>**
+- 有意向一起完成此项目或者有问题、有补充的可以加入~~NLP学习QQ群【541954936】~~
+- **1群已加满，请加2群，NLP学习QQ2群【207576902】**<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=1defd70810d9e67ca6ab3a30e1425a8a358139315a186dd2192d82a4c0ca1ce9"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="NLP学习群②" title="NLP学习群②"></a>
 
 ------
 
@@ -58,4 +59,4 @@
 
 
 
-> 欢迎大家加入！共同完善此项目！<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=863f915b9178560bd32ca07cd090a7d9e6f5f90fcff5667489697b1621cecdb3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP面试学习群" title="NLP面试学习群"></a>
+> 欢迎大家加入！共同完善此项目！<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=1defd70810d9e67ca6ab3a30e1425a8a358139315a186dd2192d82a4c0ca1ce9"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="NLP学习群②" title="NLP学习群②"></a>
