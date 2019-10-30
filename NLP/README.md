@@ -13,9 +13,11 @@
 | NLP  | [16.4 textRNN & textCNN](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.4%20textRNN%20%26%20textCNN) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP  | [16.5 序列到序列模型(seq2seq)](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.5%20seq2seq) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 | NLP  | [16.6 注意力机制(Attention Mechanism)](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.6%20Attention) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
-| NLP  | 16.7 BERT模型                                                |                                         |           |
+| NLP  | [16.7 Transformer模型](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.7%20Transformer) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
+| NLP  | [16.8 BERT模型](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.8%20BERT) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
+| NLP  | [16.9 XLNet模型](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16.9%20XLNet) | [@mantchs](https://github.com/NLP-LOVE) | 448966528 |
 
 
-> 欢迎大家加入！共同完善此项目！<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=863f915b9178560bd32ca07cd090a7d9e6f5f90fcff5667489697b1621cecdb3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP面试学习群" title="NLP面试学习群"></a>
+> 欢迎大家加入！共同完善此项目！NLP学习QQ2群【207576902】<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=1defd70810d9e67ca6ab3a30e1425a8a358139315a186dd2192d82a4c0ca1ce9"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP学习群②" title="NLP学习群②"></a>
 
 

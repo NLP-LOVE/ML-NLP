@@ -77,7 +77,7 @@
 
    ![](https://latex.codecogs.com/gif.latex?D_{Chebyshev}(p,q)=max_i(|p_i-q_i|))
 
-   这也等于以下Lp度量的极值： ![](https://latex.codecogs.com/gif.latex?\lim_{x \to \infty}(\sum_{i=1}^{n}|p_i-q_i|^k)^{1/k})，因此切比雪夫距离也称为L∞度量。
+   这也等于以下Lp度量的极值： ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-24_22-19-41.png)，因此切比雪夫距离也称为L∞度量。
 
    以数学的观点来看，切比雪夫距离是由一致范数（uniform norm）（或称为上确界范数）所衍生的度量，也是超凸度量（injective metric space）的一种。
 
