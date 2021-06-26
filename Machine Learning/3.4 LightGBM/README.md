@@ -77,7 +77,7 @@ LightGBM （Light Gradient Boosting Machine）(请点击[https://github.com/Micr
 
 为了演示LightGBM在Python中的用法，本代码以sklearn包中自带的鸢尾花数据集为例，用lightgbm算法实现鸢尾花种类的分类任务。
 
-GitHub：[点击进入](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.4%20LightGBM/3.4%20LightGBM.ipynb)
+GitHub：[点击进入](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.4%20LightGBM/LightGBM.ipynb)
 
 > 作者：[@mantchs](https://github.com/NLP-LOVE/ML-NLP)
 >
