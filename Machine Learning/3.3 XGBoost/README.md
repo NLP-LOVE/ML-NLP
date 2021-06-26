@@ -106,7 +106,7 @@ XGBoost使用了一阶和二阶偏导, 二阶导数有利于梯度下降的更�
 
 ## 4. 代码实现
 
-GitHub：[点击进入](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.3%20XGBoost/3.3%20XGBoost.ipynb)
+GitHub：[点击进入](https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/3.3%20XGBoost/XGBoost.ipynb)
 
 ## 5. 参考文献
 
