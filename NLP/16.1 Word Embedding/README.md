@@ -180,7 +180,7 @@ NNLM说的是定义一个前向窗口大小，其实和上面提到的窗口是�
 
 ### 4.2 Word2Vec
 
-谷歌2013年提出的Word2Vec是目前最常用的词嵌入模型之一。Word2Vec实际是一种浅层的神经网络模型，它有两种网络结构，**分别是CBOW（Continues Bag of Words）连续词袋和Skip-gram。**Word2Vec和上面的NNLM很类似，但比NNLM简单。
+谷歌2013年提出的Word2Vec是目前最常用的词嵌入模型之一。Word2Vec实际是一种浅层的神经网络模型，它有两种网络结构，**分别是CBOW（Continues Bag of Words）连续词袋和Skip-gram。** Word2Vec和上面的NNLM很类似，但比NNLM简单。
 
 **CBOW**
 
