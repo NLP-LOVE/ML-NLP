@@ -29,7 +29,7 @@ GRU它引⼊了**重置⻔（reset gate）和更新⻔（update gate）** 的概
 
 ![](https://latex.codecogs.com/gif.latex?Z_t=\sigma(X_tW_{xz}+H_{t-1}W_{hz}+b_z))
 
-sigmoid函数可以将元素的值变换到0和1之间。因此，重置⻔ ![](https://latex.codecogs.com/gif.latex?R_t)和更新⻔ ![](https://latex.codecogs.com/gif.latex?Z_t)中每个元素的值域都是[0*,* 1]。
+sigmoid函数可以将元素的值变换到0和1之间。因此，重置⻔ ![](https://latex.codecogs.com/gif.latex?R_t)和更新⻔ ![](https://latex.codecogs.com/gif.latex?Z_t)中每个元素的值域都是[0,1]。
 
 ### 2.2 候选隐藏状态
 
