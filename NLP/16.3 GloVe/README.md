@@ -11,7 +11,7 @@
 
 ## 1. 说说GloVe
 
-正如GloVe论文的标题而言，**GloVe的全称叫Global Vectors for Word Representation，它是一个基于全局词频统计（count-based & overall statistics）的词表征（word representation）工具，它可以把一个单词表达成一个由实数组成的向量，这些向量捕捉到了单词之间一些语义特性，比如相似性（similarity）、类比性（analogy）等。**我们通过对向量的运算，比如欧几里得距离或者cosine相似度，可以计算出两个单词之间的语义相似性。
+正如GloVe论文的标题而言，**GloVe的全称叫Global Vectors for Word Representation，它是一个基于全局词频统计（count-based & overall statistics）的词表征（word representation）工具，它可以把一个单词表达成一个由实数组成的向量，这些向量捕捉到了单词之间一些语义特性，比如相似性（similarity）、类比性（analogy）等。** 我们通过对向量的运算，比如欧几里得距离或者cosine相似度，可以计算出两个单词之间的语义相似性。
 
 
 
@@ -79,9 +79,9 @@
 
 虽然很多人声称GloVe是一种无监督（unsupervised learing）的学习方式（因为它确实不需要人工标注label），但其实它还是有label的，这个label就是以上公式中的 log(Xij)，而公式中的向量 $w和\tilde{w}$ 就是要不断更新/学习的参数，所以本质上它的训练方式跟监督学习的训练方法没什么不一样，都是基于梯度下降的。
 
-具体地，这篇论文里的实验是这么做的：**采用了AdaGrad的梯度下降算法，对矩阵 X 中的所有非零元素进行随机采样，学习曲率（learning rate）设为0.05，在vector size小于300的情况下迭代了50次，其他大小的vectors上迭代了100次，直至收敛。**最终学习得到的是两个vector是 $w和\tilde{w}$，因为 X 是对称的（symmetric），所以从原理上讲 $w和\tilde{w}$ 是也是对称的，他们唯一的区别是初始化的值不一样，而导致最终的值不一样。
+具体地，这篇论文里的实验是这么做的：**采用了AdaGrad的梯度下降算法，对矩阵 X 中的所有非零元素进行随机采样，学习曲率（learning rate）设为0.05，在vector size小于300的情况下迭代了50次，其他大小的vectors上迭代了100次，直至收敛。** 最终学习得到的是两个vector是 $w和\tilde{w}$，因为 X 是对称的（symmetric），所以从原理上讲 $w和\tilde{w}$ 是也是对称的，他们唯一的区别是初始化的值不一样，而导致最终的值不一样。
 
-所以这两者其实是等价的，都可以当成最终的结果来使用。**但是为了提高鲁棒性，我们最终会选择两者之和**  ![](https://latex.codecogs.com/gif.latex?w+\tilde{w})**作为最终的vector（两者的初始化不同相当于加了不同的随机噪声，所以能提高鲁棒性）。**在训练了400亿个token组成的语料后，得到的实验结果如下图所示：
+所以这两者其实是等价的，都可以当成最终的结果来使用。**但是为了提高鲁棒性，我们最终会选择两者之和**  ![](https://latex.codecogs.com/gif.latex?w+\tilde{w})**作为最终的vector（两者的初始化不同相当于加了不同的随机噪声，所以能提高鲁棒性）。** 在训练了400亿个token组成的语料后，得到的实验结果如下图所示：
 
 ![](http://www.fanyeong.com/wp-content/uploads/2019/08/X6eVUJJ.jpg)
 
