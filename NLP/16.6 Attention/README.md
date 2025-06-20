@@ -20,11 +20,11 @@
 
 **仍然以循环神经⽹络为例，注意⼒机制通过对编码器所有时间步的隐藏状态做加权平均来得到背景变量。解码器在每⼀时间步调整这些权重，即注意⼒权重，从而能够在不同时间步分别关注输⼊序列中的不同部分并编码进相应时间步的背景变量。**
 
-在注意⼒机制中，解码器的每⼀时间步将使⽤可变的背景变量。记 ct′ 是解码器在时间步 t′ 的背景变量，那么解码器在该时间步的隐藏状态可以改写为：
+在注意⼒机制中，解码器的每⼀时间步将使⽤可变的背景变量。记![](https://latex.codecogs.com/gif.latex?c_{t'})是解码器在时间步t′的背景变量，那么解码器在该时间步的隐藏状态可以改写为：
 
 ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-31_18-27-38.png)
 
-这⾥的关键是如何计算背景变量 ct′ 和如何利⽤它来更新隐藏状态 st′。下⾯将分别描述这两个关键点。
+这⾥的关键是如何计算背景变量![](https://latex.codecogs.com/gif.latex?c_{t'})和如何利⽤它来更新隐藏状态![](https://latex.codecogs.com/gif.latex?s_{t'})。下⾯将分别描述这两个关键点。
 
 
 
@@ -49,7 +49,7 @@
 
 ⼴义上，注意⼒机制的输⼊包括查询项以及⼀⼀对应的键项和值项，其中值项是需要加权平均的⼀组项。在加权平均中，值项的权重来⾃查询项以及与该值项对应的键项的计算。
 
-让我们考虑⼀个常⻅的简单情形，即编码器和解码器的隐藏单元个数均为 h，且函数 ![](https://latex.codecogs.com/gif.latex?a(s,h)=s^Th)。假设我们希望根据解码器单个隐藏状态 st′−1 和编码器所有隐藏状态 ht, t = 1, . . . , T来计算背景向量 ct′ 。我们可以将查询项矩阵 Q 设为![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-31_18-29-41.png)，并令键项矩阵 K 和值项矩阵 V 相同且第 t ⾏均为 ![](https://latex.codecogs.com/gif.latex?h_t^T) 。此时，我们只需要通过⽮量化计算：
+让我们考虑⼀个常⻅的简单情形，即编码器和解码器的隐藏单元个数均为 h，且函数 ![](https://latex.codecogs.com/gif.latex?a(s,h)=s^Th)。假设我们希望根据解码器单个隐藏状态 st′−1 和编码器所有隐藏状态 ht, t = 1, . . . , T来计算背景向量![](https://latex.codecogs.com/gif.latex?c_{t'})。我们可以将查询项矩阵 Q 设为![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-31_18-29-41.png)，并令键项矩阵 K 和值项矩阵 V 相同且第 t ⾏均为 ![](https://latex.codecogs.com/gif.latex?h_t^T) 。此时，我们只需要通过⽮量化计算：
 
 ![](https://latex.codecogs.com/gif.latex?softmax(QK^T)V)
 
@@ -59,7 +59,7 @@
 
 ### 2.2 更新隐藏状态
 
-现在我们描述第⼆个关键点，即更新隐藏状态。以⻔控循环单元为例，在解码器中我们可以对⻔控循环单元（GRU）中⻔控循环单元的设计稍作修改，从而变换上⼀时间步 t′−1 的输出 yt′−1、隐藏状态 st′−1 和当前时间步t′ 的含注意⼒机制的背景变量 ct′。解码器在时间步: math:t’ 的隐藏状态为：
+现在我们描述第⼆个关键点，即更新隐藏状态。以⻔控循环单元为例，在解码器中我们可以对⻔控循环单元（GRU）中⻔控循环单元的设计稍作修改，从而变换上⼀时间步 t′−1 的输出 ![](https://latex.codecogs.com/gif.latex?y_{t'-1})、隐藏状态![](https://latex.codecogs.com/gif.latex?s_{t'-1})和当前时间步t′的含注意⼒机制的背景变量![](https://latex.codecogs.com/gif.latex?c_{t'})。解码器在时间步: math:t’ 的隐藏状态为：
 
 ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-31_18-32-47.png)
 
@@ -87,7 +87,7 @@
 
 （Tom,0.3）(Chase,0.2) (Jerry,0.5)
 
-**每个英文单词的概率代表了翻译当前单词“杰瑞”时，注意力分配模型分配给不同英文单词的注意力大小。**这对于正确翻译目标语单词肯定是有帮助的，因为引入了新的信息。
+**每个英文单词的概率代表了翻译当前单词“杰瑞”时，注意力分配模型分配给不同英文单词的注意力大小。** 这对于正确翻译目标语单词肯定是有帮助的，因为引入了新的信息。
 
 同理，目标句子中的每个单词都应该学会其对应的源语句子中单词的注意力分配概率信息。这意味着在生成每个单词yi的时候，原先都是相同的中间语义表示C会被替换成根据当前生成单词而不断变化的Ci。理解Attention模型的关键就是这里，即由固定的中间语义表示C换成了根据当前输出单词来调整成加入注意力模型的变化的Ci。增加了注意力模型的Encoder-Decoder框架理解起来如下图所示。
 
@@ -109,7 +109,7 @@
 
 这里还有一个问题：生成目标句子某个单词，比如“汤姆”的时候，如何知道Attention模型所需要的输入句子单词注意力分配概率分布值呢？就是说“汤姆”对应的输入句子Source中各个单词的概率分布：(Tom,0.6)(Chase,0.2) (Jerry,0.2) 是如何得到的呢？
 
-对于采用RNN的Decoder来说，在时刻i，如果要生成yi单词，我们是可以知道Target在生成Yi之前的时刻i-1时，隐层节点i-1时刻的输出值Hi-1的，而我们的目的是要计算生成Yi时输入句子中的单词“Tom”、“Chase”、“Jerry”对Yi来说的注意力分配概率分布，那么可以用Target输出句子i-1时刻的隐层节点状态Hi-1去一一和输入句子Source中每个单词对应的RNN隐层节点状态hj进行对比，即通过函数F(hj,Hi-1)来获得目标单词yi和每个输入单词对应的对齐可能性，这个F函数在不同论文里可能会采取不同的方法，然后函数F的输出经过Softmax进行归一化就得到了符合概率分布取值区间的注意力分配概率分布数值。
+对于采用RNN的Decoder来说，在时刻i，如果要生成![](https://latex.codecogs.com/gif.latex?y_{i})单词，我们是可以知道Target在生成![](https://latex.codecogs.com/gif.latex?y_{i})之前的时刻i-1时，隐层节点i-1时刻的输出值![](https://latex.codecogs.com/gif.latex?H_{i-1})的，而我们的目的是要计算生成![](https://latex.codecogs.com/gif.latex?H_{i-1})时输入句子中的单词“Tom”、“Chase”、“Jerry”对![](https://latex.codecogs.com/gif.latex?Y_{i})来说的注意力分配概率分布，那么可以用Target输出句子i-1时刻的隐层节点状态![](https://latex.codecogs.com/gif.latex?H_{i-1})去一一和输入句子Source中每个单词对应的RNN隐层节点状态![](https://latex.codecogs.com/gif.latex?H_{j})进行对比，即通过函数![](https://latex.codecogs.com/gif.latex?F(h_j,h_{i-1}))来获得目标单词![](https://latex.codecogs.com/gif.latex?y_{i})和每个输入单词对应的对齐可能性，这个F函数在不同论文里可能会采取不同的方法，然后函数F的输出经过Softmax进行归一化就得到了符合概率分布取值区间的注意力分配概率分布数值。
 
 ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-9-25_20-28-58.png)
 
@@ -119,7 +119,7 @@
 
 一般在自然语言处理应用里会把Attention模型看作是输出Target句子中某个单词和输入Source句子每个单词的对齐模型，这是非常有道理的。
 
-**目标句子生成的每个单词对应输入句子单词的概率分布可以理解为输入句子单词和这个目标生成单词的对齐概率，**这在机器翻译语境下是非常直观的：传统的统计机器翻译一般在做的过程中会专门有一个短语对齐的步骤，而注意力模型其实起的是相同的作用。
+**目标句子生成的每个单词对应输入句子单词的概率分布可以理解为输入句子单词和这个目标生成单词的对齐概率，** 这在机器翻译语境下是非常直观的：传统的统计机器翻译一般在做的过程中会专门有一个短语对齐的步骤，而注意力模型其实起的是相同的作用。
 
 如果把Attention机制从上文讲述例子中的Encoder-Decoder框架中剥离，并进一步做抽象，可以更容易看懂Attention机制的本质思想。
 
@@ -129,7 +129,7 @@
 
 ![](https://latex.codecogs.com/gif.latex?Attention(Query,Source)=\sum_{i=1}^{L_x}Similarity(Query,key_i)*Value_i)
 
-其中，Lx=||Source||代表Source的长度，公式含义即如上所述。上文所举的机器翻译的例子里，因为在计算Attention的过程中，Source中的Key和Value合二为一，指向的是同一个东西，也即输入句子中每个单词对应的语义编码，所以可能不容易看出这种能够体现本质思想的结构。
+其中，![](https://latex.codecogs.com/gif.latex?L_x=||Source||)代表Source的长度，公式含义即如上所述。上文所举的机器翻译的例子里，因为在计算Attention的过程中，Source中的Key和Value合二为一，指向的是同一个东西，也即输入句子中每个单词对应的语义编码，所以可能不容易看出这种能够体现本质思想的结构。
 
 至于Attention机制的具体计算过程，如果对目前大多数方法进行抽象的话，可以将其归纳为两个过程：第一个过程是根据Query和Key计算权重系数，第二个过程根据权重系数对Value进行加权求和。而第一个过程又可以细分为两个阶段：第一个阶段根据Query和Key计算两者的相似性或者相关性；第二个阶段对第一阶段的原始分值进行归一化处理；
 
@@ -139,7 +139,7 @@
 
 Self Attention也经常被称为intra Attention（内部Attention），最近一年也获得了比较广泛的使用，比如Google最新的机器翻译模型内部大量采用了Self Attention模型。
 
-在一般任务的Encoder-Decoder框架中，输入Source和输出Target内容是不一样的，比如对于英-中机器翻译来说，Source是英文句子，Target是对应的翻译出的中文句子，Attention机制发生在Target的元素Query和Source中的所有元素之间。**而Self Attention顾名思义，指的不是Target和Source之间的Attention机制，而是Source内部元素之间或者Target内部元素之间发生的Attention机制，也可以理解为Target=Source这种特殊情况下的注意力计算机制。**其具体计算过程是一样的，只是计算对象发生了变化而已，所以此处不再赘述其计算过程细节。
+在一般任务的Encoder-Decoder框架中，输入Source和输出Target内容是不一样的，比如对于英-中机器翻译来说，Source是英文句子，Target是对应的翻译出的中文句子，Attention机制发生在Target的元素Query和Source中的所有元素之间。**而Self Attention顾名思义，指的不是Target和Source之间的Attention机制，而是Source内部元素之间或者Target内部元素之间发生的Attention机制，也可以理解为Target=Source这种特殊情况下的注意力计算机制。** 其具体计算过程是一样的，只是计算对象发生了变化而已，所以此处不再赘述其计算过程细节。
 
 很明显，引入Self Attention后会更容易捕获句子中长距离的相互依赖的特征，因为如果是RNN或者LSTM，需要依次序序列计算，对于远距离的相互依赖的特征，要经过若干时间步步骤的信息累积才能将两者联系起来，而距离越远，有效捕获的可能性越小。
 

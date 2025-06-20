@@ -31,7 +31,7 @@
 
 编码器的作⽤是把⼀个不定⻓的输⼊序列变换成⼀个定⻓的背景变量 c，并在该背景变量中编码输⼊序列信息。常⽤的编码器是循环神经⽹络。
 
-让我们考虑批量⼤小为1的时序数据样本。假设输⼊序列是 x1, . . . , xT，例如 xi 是输⼊句⼦中的第 i 个词。在时间步 t，循环神经⽹络将输⼊ xt 的特征向量 xt 和上个时间步的隐藏状态 ![](https://latex.codecogs.com/gif.latex?h_{t-1})变换为当前时间步的隐藏状态ht。我们可以⽤函数 f 表达循环神经⽹络隐藏层的变换：
+让我们考虑批量⼤小为1的时序数据样本。假设输⼊序列是![](https://latex.codecogs.com/gif.latex?x_1,...,x_T)，例如![](https://latex.codecogs.com/gif.latex?x_i)是输⼊句⼦中的第i个词。在时间步 t，循环神经⽹络将输⼊![](https://latex.codecogs.com/gif.latex?x_t)的特征向量![](https://latex.codecogs.com/gif.latex?x_t)和上个时间步的隐藏状态![](https://latex.codecogs.com/gif.latex?h_{t-1})变换为当前时间步的隐藏状态![](https://latex.codecogs.com/gif.latex?h_t)。我们可以⽤函数 f 表达循环神经⽹络隐藏层的变换：
 
 ![](https://latex.codecogs.com/gif.latex?h_t=f(x_t,h_{t-1}))
 
@@ -39,7 +39,7 @@
 
 ![](https://latex.codecogs.com/gif.latex?c=q(h_1,...,h_T))
 
-例如，当选择 *q*(***h***1*, . . . ,* ***h****T* ) = ***h****T* 时，背景变量是输⼊序列最终时间步的隐藏状态***h****T*。
+例如，当选择![](https://latex.codecogs.com/gif.latex?q(h_1,...,h_T)=h_T)时，背景变量是输⼊序列最终时间步的隐藏状态![](https://latex.codecogs.com/gif.latex?h_T)。
 
 以上描述的编码器是⼀个单向的循环神经⽹络，每个时间步的隐藏状态只取决于该时间步及之前的输⼊⼦序列。我们也可以使⽤双向循环神经⽹络构造编码器。在这种情况下，编码器每个时间步的隐藏状态同时取决于该时间步之前和之后的⼦序列（包括当前时间步的输⼊），并编码了整个序列的信息。
 
@@ -47,7 +47,7 @@
 
 ## 3. 解码器
 
-刚刚已经介绍，编码器输出的背景变量 c 编码了整个输⼊序列 x1, . . . , xT 的信息。给定训练样本中的输出序列 y1, y2, . . . , yT′ ，对每个时间步 t′（符号与输⼊序列或编码器的时间步 t 有区别），解码器输出 yt′ 的条件概率将基于之前的输出序列![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-29_15-39-17.png)和背景变量 c，即：
+刚刚已经介绍，编码器输出的背景变量 c 编码了整个输⼊序列![](https://latex.codecogs.com/gif.latex?x_1,...,x_T)的信息。给定训练样本中的输出序列![](https://latex.codecogs.com/gif.latex?y_1,y_2,...,y_{T'}) ，对每个时间步 t′（符号与输⼊序列或编码器的时间步 t 有区别），解码器输出![](https://latex.codecogs.com/gif.latex?y_{t'})的条件概率将基于之前的输出序列![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-29_15-39-17.png)和背景变量 c，即：
 
 ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-29_15-45-12.png)
 
@@ -55,7 +55,7 @@
 
 ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-29_15-47-36.png)
 
-有了解码器的隐藏状态后，我们可以使⽤⾃定义的输出层和softmax运算来计算 ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-29_15-49-45.png)，例如，基于当XQ前时间步的解码器隐藏状态 st′、上⼀时间步的输出![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-29_15-46-54.png)以及背景变量 c 来计算当前时间步输出 yt′ 的概率分布。
+有了解码器的隐藏状态后，我们可以使⽤⾃定义的输出层和softmax运算来计算 ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-29_15-49-45.png)，例如，基于当前时间步的解码器隐藏状态![](https://latex.codecogs.com/gif.latex?s_{t'})、上⼀时间步的输出![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-29_15-46-54.png)以及背景变量 c 来计算当前时间步输出![](https://latex.codecogs.com/gif.latex?y_{t'})的概率分布。
 
 
 
