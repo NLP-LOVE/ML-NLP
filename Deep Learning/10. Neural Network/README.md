@@ -191,7 +191,7 @@
 
 正向传播(forward-propagation)是指对神经网络沿着从输入层到输出层的顺序，依次计算并存储模型的中间变量(包括输出)。
 
-逻辑回归的计算步骤：所以回想当时我们讨论逻辑回归的时候，我们有这个正向传播步骤，其中我们计算𝑧，然后𝑎，然后损失函数𝐿。 正向传播类似，计算![](https://latex.codecogs.com/gif.latex?z^{[1]}，a^{[1]})，再计算![](https://latex.codecogs.com/gif.latex?z^{[2]}，a^{[2]})，最后得到**loss function**。
+逻辑回归的计算步骤：所以回想当时我们讨论逻辑回归的时候，我们有这个正向传播步骤，其中我们计算𝑧，然后𝑎，然后损失函数𝐿。 正向传播类似，计算![](https://latex.codecogs.com/gif.latex?z^{[1]},a^{[1]})，再计算![](https://latex.codecogs.com/gif.latex?z^{[2]},a^{[2]})，最后得到**loss function**。
 
 ![](http://wx3.sinaimg.cn/mw690/00630Defgy1g5nmdcfqwjj30dp039t8n.jpg)
 
@@ -275,7 +275,7 @@
 
 在图像分类的情景中，softmax分类器输出可以是一个图像类别的离散值，和线性回归不同的是，**softmax输出单元从一个变成了多个。**
 
-softmax回归和线性回归一样将输入特征与权重做线性叠加。与线性回归的一个主要不同在于，**softmax回归的输出值个数等于标签里的类别数。**下图是用神经网络描绘了softmax回归，也是一个单层神经网络，由于每个输出  ![](https://latex.codecogs.com/gif.latex?o_1,o_2,o_3)的计算都要依赖于所有的输入 ![](https://latex.codecogs.com/gif.latex?x_1,x_2,x_3,x_4)，softmax回归的输出层也是一个全连接层。
+softmax回归和线性回归一样将输入特征与权重做线性叠加。与线性回归的一个主要不同在于，**softmax回归的输出值个数等于标签里的类别数。** 下图是用神经网络描绘了softmax回归，也是一个单层神经网络，由于每个输出  ![](https://latex.codecogs.com/gif.latex?o_1,o_2,o_3)的计算都要依赖于所有的输入 ![](https://latex.codecogs.com/gif.latex?x_1,x_2,x_3,x_4)，softmax回归的输出层也是一个全连接层。
 
 ![](http://wx4.sinaimg.cn/mw690/00630Defly1g5lpopm1c3j30h906574z.jpg)
 
