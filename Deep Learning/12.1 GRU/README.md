@@ -17,7 +17,7 @@
 
 ### 2.1 重置门和更新门
 
-GRU它引⼊了**重置⻔（reset gate）和更新⻔（update gate）**的概念，从而修改了循环神经⽹络中隐藏状态的计算⽅式。 
+GRU它引⼊了**重置⻔（reset gate）和更新⻔（update gate）** 的概念，从而修改了循环神经⽹络中隐藏状态的计算⽅式。 
 
 门控循环单元中的重置⻔和更新⻔的输⼊均为当前时间步输⼊ ![](https://latex.codecogs.com/gif.latex?X_t)与上⼀时间步隐藏状态![](https://latex.codecogs.com/gif.latex?H_{t-1})，输出由激活函数为sigmoid函数的全连接层计算得到。 如下图所示：
 
@@ -49,7 +49,7 @@ sigmoid函数可以将元素的值变换到0和1之间。因此，重置⻔ ![](
 
  ![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-16_13-58-58.png)
 
-值得注意的是，**更新⻔可以控制隐藏状态应该如何被包含当前时间步信息的候选隐藏状态所更新，**如上图所⽰。假设更新⻔在时间步![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-16_15-26-24.png)之间⼀直近似1。那么，在时间步![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-16_15-27-55.png)间的输⼊信息⼏乎没有流⼊时间步 t 的隐藏状态 ![](https://latex.codecogs.com/gif.latex?H_t)实际上，这可以看作是较早时刻的隐藏状态 ![](https://latex.codecogs.com/gif.latex?H_{t^{′}-1})直通过时间保存并传递⾄当前时间步 t。这个设计可以应对循环神经⽹络中的梯度衰减问题，并更好地捕捉时间序列中时间步距离较⼤的依赖关系。 
+值得注意的是，**更新⻔可以控制隐藏状态应该如何被包含当前时间步信息的候选隐藏状态所更新，** 如上图所⽰。假设更新⻔在时间步![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-16_15-26-24.png)之间⼀直近似1。那么，在时间步![](https://gitee.com/kkweishe/images/raw/master/ML/2019-8-16_15-27-55.png)间的输⼊信息⼏乎没有流⼊时间步 t 的隐藏状态 ![](https://latex.codecogs.com/gif.latex?H_t)实际上，这可以看作是较早时刻的隐藏状态 ![](https://latex.codecogs.com/gif.latex?H_{t^{′}-1})直通过时间保存并传递⾄当前时间步 t。这个设计可以应对循环神经⽹络中的梯度衰减问题，并更好地捕捉时间序列中时间步距离较⼤的依赖关系。 
 
 我们对⻔控循环单元的设计稍作总结：
 
