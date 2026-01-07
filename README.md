@@ -6,7 +6,7 @@
 - 此项目亦可拿来常读、常记以及面试时复习之用。
 - 每一章里的问题都是面试时有可能问到的知识点，如有遗漏可联系我进行补充，结尾处都有算法的**实战代码案例**。
 - 思维导图，**请关注 AIArea 公众号并回复：NLP思维导图** ，即能下载高清大图。
-- ![](https://github.com/NLP-LOVE/Introduction-NLP/raw/master/img/2020-2-3_16-0-25.png?raw=true)
+- ![](./images/wechat.png)
 
 
 ------
@@ -60,4 +60,4 @@
 
 
 
-> 欢迎大家加入！共同完善此项目！NLP学习QQ2群【207576902】<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=1defd70810d9e67ca6ab3a30e1425a8a358139315a186dd2192d82a4c0ca1ce9"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="NLP学习群②" title="NLP学习群②"></a>
+> 欢迎大家加入！共同完善此项目！
