@@ -61,3 +61,5 @@
 
 
 > 欢迎大家加入！共同完善此项目！
+
+**其他项目推荐：** [personal-llm-api 轻量级的 LLM 接口服务](https://github.com/NLP-LOVE/personal-llm-api)
