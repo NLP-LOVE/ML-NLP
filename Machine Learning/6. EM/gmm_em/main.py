@@ -7,30 +7,30 @@
 import matplotlib.pyplot as plt
 from gmm import *
 
-# 设置调试模式
+# Debug mode
 DEBUG = True
 
-# 载入数据
+# Load data
 Y = np.loadtxt("gmm.data")
 matY = np.matrix(Y, copy=True)
 
-# 模型个数，即聚类的类别个数
+# Number of models, i.e., number of clusters
 K = 2
 
-# 计算 GMM 模型参数
+# Compute GMM parameters
 mu, cov, alpha = GMM_EM(matY, K, 100)
 
-# 根据 GMM 模型，对样本数据进行聚类，一个模型对应一个类别
+# Cluster samples according to GMM; one model per class
 N = Y.shape[0]
-# 求当前模型参数下，各模型对样本的响应度矩阵
+# Compute responsibility matrix under current parameters
 gamma = getExpectation(matY, mu, cov, alpha)
-# 对每个样本，求响应度最大的模型下标，作为其类别标识
+# For each sample, take argmax of responsibilities as class label
 category = gamma.argmax(axis=1).flatten().tolist()[0]
-# 将每个样本放入对应类别的列表中
+# Assign each sample to its class
 class1 = np.array([Y[i] for i in range(N) if category[i] == 0])
 class2 = np.array([Y[i] for i in range(N) if category[i] == 1])
 
-# 绘制聚类结果
+# Plot clustering result
 plt.plot(class1[:, 0], class1[:, 1], 'rs', label="class1")
 plt.plot(class2[:, 0], class2[:, 1], 'bo', label="class2")
 plt.legend(loc="best")
